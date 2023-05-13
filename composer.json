@@ -1,31 +1,35 @@
 {
-    "name": "surpaimb/dcat-form-step",
-    "description": "Dcat Admin 分步表单扩展",
-    "type": "library",
-    "keywords": ["dcat-admin", "extension"],
-    "homepage": "https://github.com/surpaimb/dcat-form-step",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Surpaimb",
-            "email": "surpaimb@126.com"
-        }
-    ],
-    "require": {
-        "php": ">=7.1.0|>=8.0",
-        "dcat/laravel-admin": "^2.2.2-beta"
-    },
-    "autoload": {
-        "psr-4": {
-            "Surpaimb\\FormStep\\": "src/"
-        }
-    },
-    "extra": {
-        "dcat-admin": "Surpaimb\\FormStep\\FormStepServiceProvider",
-        "laravel": {
-            "providers": [
-                "Surpaimb\\FormStep\\FormStepServiceProvider"
-            ]
-        }
+  "name": "surpaimb/dcat-form-step",
+  "description": "Dcat Admin 分步表单扩展",
+  "type": "library",
+  "keywords": [
+    "surpaimb",
+    "dcat-admin",
+    "extension"
+  ],
+  "homepage": "https://github.com/surpaimb/dcat-form-step",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Surpaimb",
+      "email": "surpaimb@126.com"
     }
+  ],
+  "require": {
+    "php": ">=7.1.0|>=8.0",
+    "dcat/laravel-admin": "^2.2.2-beta"
+  },
+  "autoload": {
+    "psr-4": {
+      "Surpaimb\\FormStep\\": "src/"
+    }
+  },
+  "extra": {
+    "surpaimb": "Surpaimb\\FormStep\\FormStepServiceProvider",
+    "laravel": {
+      "providers": [
+        "Surpaimb\\FormStep\\FormStepServiceProvider"
+      ]
+    }
+  }
 }
