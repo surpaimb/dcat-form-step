@@ -1,11 +1,11 @@
 <?php
 
-namespace Dcat\Admin\FormStep;
+namespace Surpaimb\FormStep;
 
 use Closure;
 use Dcat\Admin\Form as ParentForm;
 use Dcat\Admin\Http\JsonResponse;
-use Dcat\Admin\FormStep\Form;
+use Surpaimb\FormStep\Form;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 

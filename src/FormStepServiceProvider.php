@@ -1,6 +1,6 @@
 <?php
 
-namespace Dcat\Admin\FormStep;
+namespace Surpaimb\FormStep;
 
 use Dcat\Admin\Extend\ServiceProvider;
 use Dcat\Admin\Form as BaseForm;

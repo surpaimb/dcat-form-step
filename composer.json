@@ -1,30 +1,30 @@
 {
-    "name": "dcat-admin/form-step",
+    "name": "surpaimb/dcat-form-step",
     "description": "Dcat Admin 分步表单扩展",
     "type": "library",
     "keywords": ["dcat-admin", "extension"],
-    "homepage": "https://github.com/dcat-admin/form-step",
+    "homepage": "https://github.com/surpaimb/dcat-form-step",
     "license": "MIT",
     "authors": [
         {
-            "name": "Jiangqh",
-            "email": "841324345@qq.com"
+            "name": "Surpaimb",
+            "email": "surpaimb@126.com"
         }
     ],
     "require": {
-        "php": ">=7.1.0",
-        "dcat/laravel-admin": "~2.0"
+        "php": ">=7.1.0|>=8.0",
+        "dcat/laravel-admin": "^2.2.2-beta"
     },
     "autoload": {
         "psr-4": {
-            "Dcat\\Admin\\FormStep\\": "src/"
+            "Surpaimb\\FormStep\\": "src/"
         }
     },
     "extra": {
-        "dcat-admin": "Dcat\\Admin\\FormStep\\FormStepServiceProvider",
+        "dcat-admin": "Surpaimb\\FormStep\\FormStepServiceProvider",
         "laravel": {
             "providers": [
-                "Dcat\\Admin\\FormStep\\FormStepServiceProvider"
+                "Surpaimb\\FormStep\\FormStepServiceProvider"
             ]
         }
     }

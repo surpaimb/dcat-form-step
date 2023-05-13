@@ -1,6 +1,6 @@
 <?php
 
-namespace Dcat\Admin\FormStep;
+namespace Surpaimb\FormStep;
 
 use Dcat\Admin\Form;
 use Dcat\Admin\Support\Helper;

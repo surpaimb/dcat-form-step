@@ -74,8 +74,8 @@
     @endif
 </div>
 
-<input type="hidden" class="current-step-input" name="{{ Dcat\Admin\FormStep\Builder::CURRENT_VALIDATION_STEP }}" />
-<input type="hidden" class="all-steps-input" name="{{ Dcat\Admin\FormStep\Builder::ALL_STEPS }}" />
+<input type="hidden" class="current-step-input" name="{{ Surpaimb\FormStep\Builder::CURRENT_VALIDATION_STEP }}" />
+<input type="hidden" class="all-steps-input" name="{{ Surpaimb\FormStep\Builder::ALL_STEPS }}" />
 
 @php
     $lastStep = $step;

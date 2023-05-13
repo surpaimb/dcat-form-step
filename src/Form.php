@@ -1,6 +1,6 @@
 <?php
 
-namespace Dcat\Admin\FormStep;
+namespace Surpaimb\FormStep;
 
 use Dcat\Admin\Admin;
 use Dcat\Admin\Form as ParentForm;
